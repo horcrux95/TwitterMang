@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+          
+ 
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/bower_components/angular-aria/angular-aria.js"></script>
+  <script src="/bower_components/angular-animate/angular-animate.js"></script>
+  <script src="/bower_components/hammerjs/hammer.js"></script>
+  <script src="/bower_components/angular-material/angular-material.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-socket-io/socket.min.js"></script>
+  
+  <script src="/socket.io/socket.io.js"></script>
+  
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
+  <link rel="stylesheet" href="/bower_components/angular-material/themes/default-theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/app.css">
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+<script type="text/javascript" src="./js/app.js"></script>
+<style>
+
+a:link, a:visited {
+    background-color: #EE311B;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+hr {
+height: 3px;
+color: #123455;
+background-color: #123455;
+border: none;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+</style>
+
+</head>
+
+
+
+
+<body ng-app="twitterApp">
+
+<div><hr >
+ <h1 style="background-color: #EE311B">Twitter Management Application</h1>
+ 
+ </div>
+
+<br>
+    
+             
+            <a href="/#/testing" >Post a tweet</a></li>
+            
+             <a href="/#/twit" >Get Twitter Strem</a></li>
+         
+        <div ng-view></div>
+
+
+</body>
+
+</html>
